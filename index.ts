@@ -32,7 +32,7 @@ let nums: number[] = [2, 4, 6, 8]
 let anyArray: any[] = ['213', 123, 'false', true, { something: "false" }]
 
 
-/Bài tập 
+//Bài tập 
 // Khai báo 1 array numbers,  
 // Áp dụng vòng lặp, để show data
 // Kết hợp câu lệnh điều kiện ( nếu item  > 5 kết thúc vòng lặp, item  = 3  thoát vòng lặp hiện tại ) 
