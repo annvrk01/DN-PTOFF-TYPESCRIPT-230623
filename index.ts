@@ -25,6 +25,7 @@ const user: {
     age: 22,
     gender: true
 }
+
 // Array number
 let nums: number[] = [2, 4, 6, 8]
 
@@ -68,6 +69,7 @@ let result: number | string =10;
 
 // Type alias 
 type Product = {name: string, price: number, quantity: number, status: boolean}
+
 const product1: Product = {
     name: 'Product 1',
     price: 1000,
@@ -84,7 +86,8 @@ const product2: Product = {
 console.log('prod33uct2', product2)
 
 type combineInput = string | number;
-function combine(input1 : combineInput, input2 : combineInput) : combineInput {
+
+function combine(input1 : combineInput, input2 : combineInput) : string {
     if(typeof input1 === 'number' 
     && typeof input2 === 'number'){
         return input1 + input2;
@@ -92,3 +95,4 @@ function combine(input1 : combineInput, input2 : combineInput) : combineInput {
 
     return input1.toString() + input2.toString();
 }
+combine( "2", 5)

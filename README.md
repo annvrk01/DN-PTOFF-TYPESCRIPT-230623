@@ -20,7 +20,6 @@ npm install -g typescript ts-node
 tsc -v
 ```
 
-
 ## Biên dịch `index.ts` sang `index.js`
 ```shell
 tsc .\index.ts
