@@ -68,16 +68,16 @@ let person: {
 let result: number | string =10;
 
 // Type alias 
-type Product = {name: string, price: number, quantity: number, status: boolean}
+type ProductModel = {name: string, price: number, quantity: number, status: boolean}
 
-const product1: Product = {
+const product1: ProductModel = {
     name: 'Product 1',
     price: 1000,
     quantity: 5,
     status: true
 } 
 
-const product2: Product = {
+const product2: ProductModel = {
     name: 'Product 22',
     price: 1500,
     quantity: 2,
