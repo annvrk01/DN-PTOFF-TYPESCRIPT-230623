@@ -85,7 +85,7 @@ const product2: ProductModel = {
 } 
 console.log('prod33uct2', product2)
 
-type combineInput = string | number;
+type combineInputs = string | number;
 
 function combine(input1 : combineInput, input2 : combineInput) : string {
     if(typeof input1 === 'number' 
