@@ -87,7 +87,7 @@ console.log('prod33uct2', product2)
 
 type combineInputs = string | number;
 
-function combine(input1 : combineInput, input2 : combineInput) : string {
+function combine(input1 : combineInput, input2 : combineInput) : combineInput {
     if(typeof input1 === 'number' 
     && typeof input2 === 'number'){
         return input1 + input2;
